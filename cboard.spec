@@ -1,3 +1,6 @@
+# TODO:
+# - make some nice desktop
+# - add some icon
 Summary:	An ncurses frontend to GNU Chess
 Summary(pl):	Frontend ncurses dla GNU Chess
 Name:		cboard
