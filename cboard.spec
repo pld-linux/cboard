@@ -11,7 +11,7 @@ Group:		Applications/Games
 Source0:	http://arbornet.org/~bjk/cboard/%{name}-%{version}.tar.gz
 # Source0-md5:	fb2de107fbd5294427646371adf1611e
 URL:		http://arbornet.org/~bjk/cboard/
-BuildRequires:	ncurses-ext
+BuildRequires:	ncurses-ext-devel
 Requires:	gnuchess
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -29,8 +29,8 @@ i wiele innych.
 %setup -q
 
 %build
-%{configure} \
-	CPPFLAGS="%{rpmcflags} -I%{_includedir}/ncurses"
+%configure \
+	CPPFLAGS="%{rpmcflags} -I/usr/include/ncurses"
 
 %install
 rm -rf $RPM_BUILD_ROOT
