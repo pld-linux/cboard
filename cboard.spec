@@ -2,7 +2,7 @@ Summary:	An ncurses frontend to GNU Chess
 Summary(pl):	Frontend ncurses dla GNU Chess
 Name:		cboard
 Version:	0.1.6
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Games
 Source0:	http://arbornet.org/~bjk/cboard/%{name}-%{version}.tar.gz
