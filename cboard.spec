@@ -11,7 +11,7 @@ Group:		Applications/Games
 Source0:	http://arbornet.org/~bjk/cboard/%{name}-%{version}.tar.gz
 # Source0-md5:	fb2de107fbd5294427646371adf1611e
 URL:		http://arbornet.org/~bjk/cboard/
-BuildRequires:	ncurses-devel
+BuildRequires:	ncurses-ext
 Requires:	gnuchess
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
