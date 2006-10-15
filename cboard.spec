@@ -5,12 +5,14 @@ Summary:	An ncurses frontend to GNU Chess
 Summary(pl):	Frontend ncurses dla GNU Chess
 Name:		cboard
 Version:	0.2.4
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/sourceforge/bjk/%{name}-%{version}.tar.gz
 # Source0-md5:	9ce34b2201537881a4089e53442405fe
 URL:		http://arbornet.org/~bjk/cboard/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	ncurses-ext-devel
 Requires:	gnuchess
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -29,6 +31,10 @@ i wiele innych.
 %setup -q
 
 %build
+%{__aclocal}
+%{__autoconf}
+%{__autoheader}
+%{__automake}
 %configure \
 	CPPFLAGS="%{rpmcflags} -I/usr/include/ncurses"
 
