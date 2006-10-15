@@ -8,7 +8,7 @@ Version:	0.2.4
 Release:	2
 License:	GPL v2
 Group:		Applications/Games
-Source0:	http://dl.sourceforge.net/sourceforge/bjk/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/bjk/%{name}-%{version}.tar.gz
 # Source0-md5:	9ce34b2201537881a4089e53442405fe
 URL:		http://arbornet.org/~bjk/cboard/
 BuildRequires:	autoconf
