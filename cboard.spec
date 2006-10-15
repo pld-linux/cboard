@@ -4,12 +4,12 @@
 Summary:	An ncurses frontend to GNU Chess
 Summary(pl):	Frontend ncurses dla GNU Chess
 Name:		cboard
-Version:	0.1.6
-Release:	2
+Version:	0.2.4
+Release:	1
 License:	GPL v2
 Group:		Applications/Games
-Source0:	http://arbornet.org/~bjk/cboard/%{name}-%{version}.tar.gz
-# Source0-md5:	fb2de107fbd5294427646371adf1611e
+Source0:	http://dl.sourceforge.net/sourceforge/bjk/%{name}-%{version}.tar.gz
+# Source0-md5:	9ce34b2201537881a4089e53442405fe
 URL:		http://arbornet.org/~bjk/cboard/
 BuildRequires:	ncurses-ext-devel
 Requires:	gnuchess
@@ -43,10 +43,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog KnownBugs NEWS README TODO
+%doc ChangeLog KnownBugs NEWS README THANKS TODO
 %attr(755,root,root) %{_bindir}/*
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/*.data
-# Is it needed here?
-%{_datadir}/%{name}/config.example
 %{_mandir}/man6/*.6*
