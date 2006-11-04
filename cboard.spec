@@ -24,8 +24,8 @@ more.
 
 %description -l pl
 CBoard jest frontendem dla GNU Chess, u¿ywaj±cym interfejsu biblioteki
-ncurses. Potrafi modyfikowaæ tagi PGN, komentowaæ ruchy za pomoc± NAG
-i wiele innych.
+ncurses. Potrafi modyfikowaæ znaczniki PGN, komentowaæ ruchy za pomoc±
+NAG i wiele innych.
 
 %prep
 %setup -q
