@@ -2,7 +2,7 @@
 # - make some nice desktop
 # - add some icon
 Summary:	An ncurses frontend to GNU Chess
-Summary(pl.UTF-8):   Frontend ncurses dla GNU Chess
+Summary(pl.UTF-8):	Frontend ncurses dla GNU Chess
 Name:		cboard
 Version:	0.2.4
 Release:	2
