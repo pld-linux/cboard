@@ -2,7 +2,7 @@
 # - make some nice desktop
 # - add some icon
 Summary:	An ncurses frontend to GNU Chess
-Summary(pl):	Frontend ncurses dla GNU Chess
+Summary(pl.UTF-8):   Frontend ncurses dla GNU Chess
 Name:		cboard
 Version:	0.2.4
 Release:	2
@@ -22,9 +22,9 @@ CBoard is a console frontend to GNU Chess, using the ncurses library
 for the interface. It can edit PGN tags, annotate moves with NAG, and
 more.
 
-%description -l pl
-CBoard jest frontendem dla GNU Chess, u¿ywaj±cym interfejsu biblioteki
-ncurses. Potrafi modyfikowaæ znaczniki PGN, komentowaæ ruchy za pomoc±
+%description -l pl.UTF-8
+CBoard jest frontendem dla GNU Chess, uÅ¼ywajÄ…cym interfejsu biblioteki
+ncurses. Potrafi modyfikowaÄ‡ znaczniki PGN, komentowaÄ‡ ruchy za pomocÄ…
 NAG i wiele innych.
 
 %prep
