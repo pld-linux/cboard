@@ -36,7 +36,8 @@ NAG i wiele innych.
 %{__autoheader}
 %{__automake}
 %configure \
-	CPPFLAGS="%{rpmcflags} -I/usr/include/ncurses"
+	CPPFLAGS="%{rpmcflags} -I/usr/include/ncurses" 
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
