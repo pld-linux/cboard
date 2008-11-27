@@ -10,7 +10,7 @@ License:	GPL v2+
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/bjk/%{name}-%{version}.tar.gz
 # Source0-md5:	0d4dce04bf3a8fe163ced5a0a32010d4
-URL:		http://arbornet.org/~bjk/cboard/
+URL:		http://bjk.sourceforge.net/cboard/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	ncurses-ext-devel
